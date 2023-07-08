@@ -1,0 +1,8 @@
+body{
+  margin: 0;
+  background: rgb(80, 78, 78);
+  font-family: system-ui;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}

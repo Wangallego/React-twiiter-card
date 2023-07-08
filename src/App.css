@@ -1,0 +1,50 @@
+
+.tw-followCard{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: .8rem;
+  padding: .5rem;
+  background: rgb(80, 78, 78);
+  justify-content: space-between; 
+}
+
+.tw-followCard-header{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tw-followCard-info {
+  display: flex;
+  flex-direction: column;
+}
+.tw-followCard-infoUserName {
+  opacity:.6;
+}
+
+.tw-followCard-avatar{
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+
+.tw-followCard-button{
+  margin-left: 16px;
+  border: 0;
+  border-radius: 800px;
+  padding: 6px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tw-followCard-button.is-following{
+  border: 1px solid rgba(255, 0, 0, 0.384);
+}
+.tw-followCard-button:hover {
+  background-color: rgba(114, 114, 255, 0.719);
+  transition: .3s ease background-color;
+}
+
+.tw-followCard-button.is-following:hover{
+  background-color: red;
+}
